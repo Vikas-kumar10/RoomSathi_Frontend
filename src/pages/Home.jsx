@@ -2,7 +2,7 @@ import HeroSection from "../components/Home/HeroSection";
 import PopularAreas from "../components/Home/PopularAreas"
 import HowItWorks from "../components/Home/HowItWorks";
 import UserTypeSection from "../components/Home/UserTypeSection"
-import TrustSection from "../components/home/TrustSection"
+import TrustSection from "../components/home/TrustSection.jsx"
 import RoomShowcase from "../components/Home/RoomShowcase";
 
 
