@@ -28,7 +28,7 @@ function RoomShowcase() {
 
         const response = await getAllRooms();
         const roomData = response?.rooms || response || [];
-        console.log("roomData", roomData);
+        
 
         setRooms(Array.isArray(roomData) ? roomData.slice(0, 6) : []);
       } catch (error) {
